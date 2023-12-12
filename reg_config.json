@@ -1,0 +1,269 @@
+{
+    
+        "Control_No" : {
+            "Reg_ex" : ".*[0-9].*" , 
+            
+            "To_be_matched" : "True",
+
+
+            "condition" :  "This regex pattern ensures that there is at least one numeric digit (0-9) present in the string."
+        },
+
+    
+    
+   
+        "LOA_No" : {
+            "Reg_ex" :".*[0-9].*" ,   
+    
+            "To_be_matched" : "True",
+
+            "condition" :"This regex pattern ensures that there is at least one numeric digit (0-9) present in the string."
+    
+        },
+
+    
+
+    
+
+        "Hospital_Name" : {
+            "Reg_ex" :"^[^0-9]*$",
+            
+
+            "To_be_matched" : "True",
+
+            "condition" :"regex pattern ensures that the entire string contains at least one character and does not contain any numbers."
+
+        },
+
+  
+
+    
+
+        "Patient_Name" : {
+            "Reg_ex" : "^[^0-9]*$",
+
+            "To_be_matched" : "True",
+
+            "condition" :"regex pattern ensures that the entire string contains at least one character and does not contain any numbers."
+
+        },
+
+    
+
+    
+
+        "Admission_Date" : {
+
+            "Reg_ex" : "^[^0-9]*$",
+
+            "To_be_matched" : "False",
+
+            "condition" :"This regex pattern ensures that the entire string does not contain any numeric digits (0-9)."
+            
+
+        },
+
+    
+
+    
+
+        "Discharge_Date" : {
+
+            "Reg_ex" : "^[^0-9]*$",
+
+            "To_be_matched" : "False",
+
+            "condition" :"This regex pattern ensures that the entire string does not contain any numeric digits (0-9)."
+            
+
+        },
+
+    
+
+    
+
+        "SA_Amount" : {
+            "Reg_ex" : ".*[0-9].*",
+
+            "To_be_matched" : "True",
+
+            "condition" :"This regex pattern ensures that there is at least one numeric digit (0-9) present in the string."
+
+        },
+
+   
+
+        "No_of_Patients" : {
+
+            "Reg_ex" : "^[0-9]+$",
+
+           
+
+            "To_be_matched" : "True",
+
+            "condition" :"This regex pattern ensures that the entire string consists of one or more digits (numbers) from 0 to 9."
+
+        },
+
+    
+
+        "Credit_Memo_Amount" : {
+            "Reg_ex" : ".*[0-9].*",
+            
+
+            "To_be_matched" : "True",
+
+            "condition" :"This regex pattern ensures that there is at least one numeric digit (0-9) present in the string."
+
+        },
+
+   
+
+        "Philhealth_(Hosp Bill Portion)_Amount" : {
+            "Reg_ex" : ".*[0-9].*",
+            
+
+            "To_be_matched" : "True",
+
+            "condition" :"This regex pattern ensures that there is at least one numeric digit (0-9) present in the string."
+
+        },
+
+    
+
+        "Patients_Deduction" : {
+            "Reg_ex" : ".*[0-9].*",
+            
+
+            "To_be_matched" : "True",
+
+            "condition" :"This regex pattern ensures that there is at least one numeric digit (0-9) present in the string."
+
+        },
+
+
+    
+
+        "Visit_Date" : {
+
+            "Reg_ex" : "^[^0-9]*$",
+
+            "To_be_matched" : "False",
+
+            "condition" :"This regex pattern ensures that the entire string does not contain any numeric digits (0-9)."
+            
+
+        },
+
+    
+
+        "Third_Party_Deduction" : {
+            "Reg_ex" : ".*[0-9].*",
+            
+
+            "To_be_matched" : "True",
+
+            "condition" :"This regex pattern ensures that there is at least one numeric digit (0-9) present in the string."
+
+        },
+
+   
+
+        "Discount_by_Hospital" : {
+            "Reg_ex" :".*[0-9].*",
+            
+
+            "To_be_matched" : "True",
+
+            "condition" :"This regex pattern ensures that there is at least one numeric digit (0-9) present in the string."
+
+        },
+
+   
+
+        "Name_of_Attending_Physicians/Doctors" : {
+            "Reg_ex" : "^[^0-9]*$",
+
+
+            "To_be_matched" : "True",
+
+            "condition" :"regex pattern ensures that the entire string contains at least one character and does not contain any numbers."
+
+        },
+
+    
+
+        "Doctor's_PF_Amount" : {
+            "Reg_ex" : ".*[0-9].*",
+            
+
+            "To_be_matched" : "True",
+
+            "condition" :"This regex pattern ensures that there is at least one numeric digit (0-9) present in the string."
+
+        },
+
+    
+
+        "Total_SOA_Hospital_Bill" : {
+            "Reg_ex" : ".*[0-9].*",
+
+            
+
+            "To_be_matched" : "True",
+
+            "condition" :"This regex pattern ensures that there is at least one numeric digit (0-9) present in the string."
+
+        },
+
+   
+
+        "Total_SOA_Professional_Fee" : {
+            "Reg_ex" : ".*[0-9].*",
+
+            
+            
+
+            "To_be_matched" : "True",
+
+            "condition" :"This regex pattern ensures that there is at least one numeric digit (0-9) present in the string."
+
+        },
+
+    
+
+        "Total_Net_Amount" : {
+            "Reg_ex" : ".*[0-9].*",
+            
+
+            "To_be_matched" : "True",
+
+            "condition" :"This regex pattern ensures that there is at least one numeric digit (0-9) present in the string."
+
+        },
+
+    
+
+        "Diagnosis" : {
+            "Reg_ex" : "^[0-9]+$",
+
+            "To_be_matched" : "False",
+
+            "condition" :"This regex pattern ensures that the entire string consists only of numbers (0-9)."
+
+        },
+
+    
+
+        "Procedure" : {
+            "Reg_ex" : "^[0-9]+$",
+
+            "To_be_matched" : "False",
+
+            "condition" :"This regex pattern ensures that the entire string consists only of numbers (0-9)."
+
+        }
+
+   
+    
+    }
